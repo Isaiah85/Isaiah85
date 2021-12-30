@@ -1,0 +1,91 @@
+body {
+    margin:15px;
+    border: black solid 1px;
+    width: 700px;
+}
+
+.topcontainer {
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    border: 2px solid black;
+    min-height: 20px;
+    
+}
+
+.box1 {
+    display: flex;
+    border: 2px solid black;
+    width: 100px;
+    min-height: 100px;
+    background-color: lightgray;
+    margin: 10px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 100px;
+    min-height: 100px;
+    background-color: lightgray;
+    margin-left: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.box3 {
+    display: flex;
+    border: 2px solid black;
+    width: 100px;
+    min-height: 100px;
+    background-color: lightgray;
+    margin: 10px;
+}
+
+.leftcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: black solid 1px;
+    width: 300px;
+    height: 500px;
+    background-color: lightgray;
+}
+
+.boxa {
+    display: flex;
+    border: 2px solid black;
+    width: 140px;
+    min-height: 100px;
+    background-color: rgb(245, 240, 240);
+    margin: 10px; 
+}
+
+.boxb {
+    display: flex;
+    border: 2px solid black;
+    width: 140px;
+    min-height: 100px;
+    background-color: rgb(245, 240, 240);
+    margin: 10px; 
+}
+
+.boxc {
+    display: flex;
+    border: 2px solid black;
+    width: 140px;
+    min-height: 100px;
+    background-color: rgb(245, 240, 240);
+    margin: 10px; 
+}
+
+
+.rightcolumn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    border: black solid 1px;
+    width: 300px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
